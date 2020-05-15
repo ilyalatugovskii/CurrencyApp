@@ -1,0 +1,11 @@
+framework module BusinessLogic {
+  umbrella header "BusinessLogic.h"
+
+  export *
+  module * { export * }
+}
+
+module BusinessLogic.Swift {
+    header "BusinessLogic-Swift.h"
+    requires objc
+}
